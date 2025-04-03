@@ -1,0 +1,52 @@
+section {
+    background-color: #6d6875;
+    width: 10rem;
+    height: 800px;
+}
+
+
+div {
+    background-color: greenyellow;
+    width: 50%;
+    height: 50%;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    border: 1px solid black;
+    line-height: 2rem;
+}
+
+#ems h2 {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#ems h3 {
+    font-size: 1.5rem;
+}
+
+article {
+    font-size: 1rem;
+}
+
+#ems p {
+    font-size: 0.8em;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    background-color: #2a9d8f;
+    color: white;
+}
+
+#ems ul {
+    font-size: 1.5rem;
+}
+
+html {
+    font-size: 60px;
+}

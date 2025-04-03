@@ -1,0 +1,85 @@
+/* * {
+    background-color: black;
+} */
+
+h1 {
+    font-size: 60px;
+}
+
+button {
+    font-size: 30px;
+}
+
+h1, h2 {
+    color: black;
+}
+
+#first {
+    background-color: #1d3557;
+    color: white;
+}
+
+.charname {
+    font-size: 35px;
+    background-color: grey;
+}
+
+.frieren ul li {
+    font-size: 25px;
+}
+
+/* Select a button that  comes right after an 'br' element */
+/* Not a child or parent, just comes right after in the same level */
+br + button {
+    background-color: darkcyan;
+}
+
+/* Direct descendant */
+div > h3 {
+    color: grey;
+}
+
+/* selecting specific elements by type */
+input[type="password"] {
+    color: orange;
+}
+
+/* select only the sections with the class of post */
+section.post {
+    color: white;
+}
+
+
+.frieren ul li:hover {
+    /* color: dimgrey; */
+    font-weight: 700;
+}
+
+#first:active {
+    background-color: black;
+}
+
+.frieren ul li:nth-of-type(2n) {
+    color: grey;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+.hecarim p::first-line {
+    color: #6F4E37	;
+}
+
+/* Change the properties when we have selected/highlighted an element */
+.hecarim p::selection {
+    background-color: #6F4E37;
+}
+
+/* SPECIFICITY  */
+/* The more specific a selection... it tends to win */
+/* Can make something win Specificity by declaring it as !important */
+
+/* INHERITANCE */
+/* Can make a child element inherent a specific property by saying e.g.: color: inherit */
+

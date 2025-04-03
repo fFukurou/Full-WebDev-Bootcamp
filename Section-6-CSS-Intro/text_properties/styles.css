@@ -1,0 +1,21 @@
+h1 {
+    text-align: right;
+    width: 50%; 
+    font-weight: 100;
+    text-decoration: purple underline wavy;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+h2 {
+    font-family: arial, Futura, Segoe UI, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}

@@ -1,0 +1,1 @@
+alle menslike wesens word vry
